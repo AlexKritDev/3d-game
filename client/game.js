@@ -550,7 +550,8 @@ class PlayerLocal extends Player {
         super(game, model);
 
         const player = this;
-        const socket = io.connect("http://localhost:4000/");
+        // const socket = io.connect("http://localhost:4000/");
+        const socket = io.connect("https://multiplayer-3d-game.herokuapp.com/");
         socket.on('setId', function (data) {
             player.id = data.id;
         });
