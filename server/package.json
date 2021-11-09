@@ -1,0 +1,10 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "My first 3d multiplayer game",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.2",
+    "three": "^0.134.0"
+  }
+}
