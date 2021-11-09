@@ -7,7 +7,7 @@ const io = new Server(server);
 
 const port = 4000;
 
-const clientPath = '../client/';
+const clientPath = './client/';
 
 const fs = require('fs');
 app.use(express.static(clientPath));
